@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import {useEffect} from 'react';
 import './App.css';
+
+const
+// API Key 1dc19b08
+
+const API_URL = 'http://http://www.omdbapi.com?apikey=1dc19b08';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
     </div>
   );
 }
